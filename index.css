@@ -200,9 +200,10 @@ font-weight: 600;
 color: #696b79;
 }
 .price{
-font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .final-price{
+    font-weight: 800;
 
 }
 .origional-price{
