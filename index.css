@@ -177,8 +177,8 @@ text-align:center;
 padding: 15px;
 }
 .items-container{
-width: 90%;
-margin:40px 5%;
+width: 80%;
+margin:40px 10%;
 display: flex;
 flex-wrap: wrap;
 }
