@@ -144,7 +144,7 @@ let innerHTML='';
 let items1=[
     {
     id:'001',
-    image:'"/images/download (1).jpeg',
+    image:'/images/download (1).jpeg',
     company:'Carlton London',
     rating:{
     stars:4.5,
@@ -174,7 +174,7 @@ let items1=[
         },
         {
             id:'003',
-            image:'"/images/download (3).jpeg',
+            image:'/images/download (3).jpeg',
             company:'NUVOSDAMAS',
             rating:{
             stars:4.1,
@@ -219,7 +219,7 @@ let items1=[
                     },
                     {
                         id:'006',
-                        image:'"/images/images (15).jpeg',
+                        image:'/images/images (15).jpeg',
                         company:'Nike',
                         rating:{
                         stars:4.2,
