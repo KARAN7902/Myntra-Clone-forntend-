@@ -129,7 +129,7 @@ let itemsContainer2Element=document.querySelector('.items1-container');
 let innerHTML='';
 let items1=[
     {
-    id:'001',
+    id:'008',
     image:'/images/download (1).jpeg',
     company:'Urbano Fashion',
     rating:{
@@ -144,7 +144,7 @@ let items1=[
     discount_price:60,
     },
     {
-        id:'002',
+        id:'009',
         image:'/images/download (2).jpeg',
         company:'HIGHLANDER',
         rating:{
@@ -159,7 +159,7 @@ let items1=[
         discount_price:42,
         },
         {
-            id:'003',
+            id:'010',
             image:'/images/download (3).jpeg',
             company:'KINGDOM OF WHITE',
             rating:{
@@ -174,7 +174,7 @@ let items1=[
             discount_price:69,
             },
             { 
-                id:'004',
+                id:'012',
                 image:'/images/download (4).jpeg',
                 company:'ARROW',
                 rating:{
@@ -189,7 +189,7 @@ let items1=[
                 discount_price:30,
                 },
                 {
-                    id:'005',
+                    id:'013',
                     image:'/images/images (12).jpeg',
                     company:'FIVEFEB',
                     rating:{
@@ -204,7 +204,7 @@ let items1=[
                     discount_price:0,
                     },
                     {
-                        id:'006',
+                        id:'014',
                         image:'/images/images (15).jpeg',
                         company:'Mr Bowerbird',
                         rating:{
@@ -219,7 +219,7 @@ let items1=[
                         discount_price:60,
                         },
                         {
-                            id:'007',
+                            id:'015',
                             image:'/images/images (16).jpeg',
                             company:'Peter England',
                             rating:{
@@ -257,7 +257,7 @@ let itemsContainer3Element=document.querySelector('.items2-container');
 let innerHTML1='';
 let items2=[
     {
-    id:'001',
+    id:'016',
     image:'/images/shopping (1).webp',
     company:'Anni Designer',
     rating:{
@@ -272,7 +272,7 @@ let items2=[
     discount_price:73,
     },
     {
-        id:'002',
+        id:'017',
         image:'/images/shopping (2).webp',
         company:'Anouk',
         rating:{
@@ -287,7 +287,7 @@ let items2=[
         discount_price:72,
         },
         {
-            id:'003',
+            id:'018',
             image:'/images/shopping (3).webp',
             company:'Sangria',
             rating:{
@@ -302,7 +302,7 @@ let items2=[
             discount_price:75,
             },
             { 
-                id:'004',
+                id:'019',
                 image:'/images/shopping (4).webp',
                 company:'KALINI',
                 rating:{
@@ -317,7 +317,7 @@ let items2=[
                 discount_price:78,
                 },
                 {
-                    id:'005',
+                    id:'020',
                     image:'/images/shopping (6).webp',
                     company:'Rain & Rainbow',
                     rating:{
@@ -332,7 +332,7 @@ let items2=[
                     discount_price:65,
                     },
                     {
-                        id:'006',
+                        id:'021',
                         image:'/images/shopping (7).webp',
                         company:'Lakshita ',
                         rating:{
@@ -347,7 +347,7 @@ let items2=[
                         discount_price:36,
                         },
                         {
-                            id:'007',
+                            id:'022',
                             image:'/images/shopping (8).webp',
                             company:'Junior',
                             rating:{
