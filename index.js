@@ -120,7 +120,7 @@ items.forEach(item=>{
                     <span class="origional-price">Rs ${item.origional_price}</span>
                     <span class="item-discount">(${item.discount_price}% OFF)</span>
                 </div>
-                <button class="btn-add-bag">Add to Bag</button>
+                <button class="btn-add-bag" onclick="addToBag(${item.id});">Add to Bag</button>
             </div>
     `;
 })
@@ -247,7 +247,7 @@ items1.forEach(item=>{
                     <span class="origional-price">Rs ${item.origional_price}</span>
                     <span class="item-discount">(${item.discount_price}% OFF)</span>
                 </div>
-                <button class="btn-add-bag">Add to Bag</button>
+                <button class="btn-add-bag" onclick="addToBag(${item.id});>Add to Bag</button>
             </div>
     `;
 })
@@ -375,7 +375,7 @@ items2.forEach(item=>{
                     <span class="origional-price">Rs ${item.origional_price}</span>
                     <span class="item-discount">(${item.discount_price}% OFF)</span>
                 </div>
-                <button class="btn-add-bag">Add to Bag</button>
+                <button class="btn-add-bag" onclick="addToBag(${item.id});>Add to Bag</button>
             </div>
     `;
 })
