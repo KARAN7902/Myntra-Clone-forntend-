@@ -1,10 +1,24 @@
-let bagitem=[];
-function addToBag(itemID){
-    bagitem.push(itemID);
-    bagCount();
+let bagitem;
+onLoad();
+function onLoad() {
+    let BagitemStr = localStorage.getItem('Bagitem');
+    bagitem = BagitemStr ? JSON.parse(BagitemStr) : [];
+    displayBagCount();
 }
 
-function bagCount(){
-    let bagCountElement=document.querySelector('.bagcount');
-    bagCountElement.innerHTML=bagitem.length;
+function addToBag(itemID) {
+    bagitem.push(itemID);
+    localStorage.setItem('Bagitem', JSON.stringify(bagitem));
+    displayBagCount();
+}
+
+function displayBagCount() {
+    let bagCountElement = document.querySelector('.bagcount');
+    if (bagitem.length > 0) {
+        bagCountElement.style.visibility = 'visible';
+
+        bagCountElement.innerText = bagitem.length;
+    } else {
+        bagCountElement.style.visibility = 'hidden';
+    }
 }
