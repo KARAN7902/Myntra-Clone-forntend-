@@ -57,6 +57,9 @@ img{
   width: 30%;
   margin-left: 20px;
   height: 400px;
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 10px;
 }
 .price{
   padding-bottom:10px;
@@ -72,10 +75,36 @@ img{
   padding-bottom:10px;
 
 }
-table{
+
+.left-part-fnl-bill{
+  text-align: left;
+  width: 50%;
+}
+.right-part-fnl-bill{
+  text-align: right;
+  width: 50%;
+}
+.bill{
+  display: flex;
+
+}
+.left-hr{
+  text-align: left;
+  width: 50%;
+}
+.right-hr{
+  width:50%;
+  text-align: right;
+}
+.hr{
+  height: 1px;
   width: 100%;
-  font-size: 25px;
+  background-color: black;
 }
-tr{
-  margin-bottom: 20px;
+.total-amt{
+  display: flex;
 }
+  
+
+
+
