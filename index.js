@@ -1,8 +1,5 @@
 let itemsContainerElement = document.querySelector('.items-container');
-if(!itemsContainerElement)
-{
-    return;
-}
+
 let innerHtml = '';
 let items = [
     {
@@ -111,7 +108,8 @@ let items = [
         discount_price: 60,
     },
 
-]
+];
+module.exports=items;
 items.forEach(item => {
     innerHtml += `
      <div class="item-container">
@@ -130,10 +128,7 @@ items.forEach(item => {
 })
 itemsContainerElement.innerHTML = innerHtml;
 let itemsContainer2Element = document.querySelector('.items1-container');
-if(!itemsContainer2Element)
-{
-    return;
-}
+
 let innerHTML = '';
 let items1 = [
     {
@@ -262,10 +257,7 @@ items1.forEach(item => {
 itemsContainer2Element.innerHTML = innerHTML;
 //third array for the women section
 let itemsContainer3Element = document.querySelector('.items2-container');
-if(!itemsContainer3Element)
-{
-    return;
-}
+
 let innerHTML1 = '';
 let items2 = [
     {
