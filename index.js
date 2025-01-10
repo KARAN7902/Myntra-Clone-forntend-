@@ -11,8 +11,8 @@ let items = [
             review: 1400,
         },
         item_name: 'Rhodium-Plated CZ Floral Studs',
-        final_price: '600',
-        origional_price: '1200',
+        final_price: 600,
+        origional_price: 1200,
         return_period: 14,
         delivery_date: '07 Jan 2025',
         discount_price: 50,
@@ -26,8 +26,8 @@ let items = [
             review: 24,
         },
         item_name: 'Women Padded Halter Neck Swimming Dress',
-        final_price: '1507',
-        origional_price: '2599',
+        final_price: 1507,
+        origional_price: 2599,
         return_period: 14,
         delivery_date: '07 Jan 2025',
         discount_price: 42,
@@ -109,7 +109,7 @@ let items = [
     },
 
 ];
-module.exports=items;
+//module.exports=items;
 items.forEach(item => {
     innerHtml += `
      <div class="item-container">
@@ -269,8 +269,8 @@ let items2 = [
             review: 140,
         },
         item_name: 'Kurta with Trouser & Dupatta',
-        final_price: '1173',
-        origional_price: '4345',
+        final_price: 1173,
+        origional_price: 4345,
         return_period: 14,
         delivery_date: '07 Jan 2025',
         discount_price: 73,
@@ -284,8 +284,8 @@ let items2 = [
             review: 2400,
         },
         item_name: 'Women Padded Halter ',
-        final_price: '545',
-        origional_price: '1949',
+        final_price: 545,
+        origional_price: 1949,
         return_period: 14,
         delivery_date: '07 Jan 2025',
         discount_price: 72,
