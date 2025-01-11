@@ -19,7 +19,7 @@ let items = [
     },
     {
         id: '002',
-        image: '/images/2.jpg',
+        image: '/images/shopping (1).webp',
         company: 'CUKO',
         rating: {
             stars: 4.3,
